@@ -23,13 +23,11 @@ Open Termux and run:
 ```bash
 pkg update && pkg upgrade -y
 
-
 ---
 
 # ✅ Step 3 — Install Required Packages
 
 pkg install git wget curl proot-distro -y
-
 
 ---
 
