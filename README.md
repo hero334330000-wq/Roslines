@@ -26,38 +26,29 @@ pkg update && pkg upgrade -y
 
 ---
 
-✅ Step 3 — Install Required Packages
+# ✅ Step 3 — Install Required Packages
 
 pkg install git wget curl proot-distro -y
 
 
 ---
 
-✅ Step 4 — Install Ubuntu
+# ✅ Step 4 — Install Ubuntu
 
 proot-distro install ubuntu
-
-Start Ubuntu:
-
 proot-distro login ubuntu
 
 
 ---
 
-✅ Step 5 — Update Ubuntu
-
-Inside Ubuntu run:
+# ✅ Step 5 — Update Ubuntu
 
 apt update && apt upgrade -y
-
-
----
-
-✅ Step 6 — Install Python + FFmpeg
+# ✅ Step 6 — Install Python + FFmpeg
 
 apt install python3 python3-pip git ffmpeg -y
 
-Check versions:
+#Check versions:
 
 python3 --version
 ffmpeg -version
@@ -65,40 +56,24 @@ ffmpeg -version
 
 ---
 
-✅ Step 7 — Clone GitHub Repository
+# ✅ Step 7 — Clone GitHub Repository
 
 git clone https://github.com/hero334330000-wq/Roslines.git
-
-Enter folder:
-
 cd Roslines
-
-
 ---
 
-✅ Step 8 — Create Virtual Environment
+# ✅ Step 8 — Create Virtual Environment
 
 python3 -m venv venv
-
-Activate venv:
-
 source venv/bin/activate
-
-
 ---
-
-✅ Step 9 — Install Python Libraries
+# ✅ Step 9 — Install Python Libraries
 
 pip install -U pip
-
-Install bot packages:
-
 pip install -U discord.py yt-dlp pynacl ffmpeg-python
-
-
 ---
 
-✅ Step 10 — Add Discord Bot Token
+# ✅ Step 10 — Add Discord Bot Token
 
 Create bot.txt file:
 
